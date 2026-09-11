@@ -1,29 +1,13 @@
-# Ambika Hair Salon — Free Website
+# Ambika Hair Salon — Professional Website
 
-## 1. Customize
-Open `config.js` and change:
-- `phone`
-- `displayPhone`
-- `address`
-- `mapUrl`
+Address: Ambika Salon, DP Road, Giram Complex, Beed, Maharashtra.
+Phones: 9309096831, 9765634194, 9049592699
+Hours: 8:30 AM–11:00 PM daily
 
-You can also edit service names/prices directly in `index.html`.
+Primary WhatsApp booking: 9765634194
 
-## 2. Test
-Open `index.html` in a browser. The booking form creates a WhatsApp message.
+## GitHub Pages
+Upload/replace the website files in the repository root and keep GitHub Pages set to `main` → `/ (root)`.
 
-## 3. Host for free
-### GitHub Pages
-1. Create a GitHub account.
-2. Create a new public repository, e.g. `ambika-hair-salon`.
-3. Upload `index.html`, `style.css`, `config.js`, `script.js`, and `README.md`.
-4. Repository → Settings → Pages → Deploy from branch → `main` → `/root`.
-5. Save. GitHub will give you a free website address.
-
-### Netlify
-You can also drag the entire project folder into Netlify's site deployment area for a free static site.
-
-## Important
-This is a static website, so there is no monthly hosting/server cost. The booking form uses WhatsApp and it need  a database of customer and their service 
-
-Do NOT put an OpenAI API key in `index.html`, `script.js`, or any other browser file. If you later want an AI chatbot, use a server-side/backend function so the API key stays private.
+## Reminder tool
+The 10/15-day reminder dashboard stores customer data locally in the browser. It is not a server-side automatic messaging system.
