@@ -24,6 +24,6 @@ Open `index.html` in a browser. The booking form creates a WhatsApp message.
 You can also drag the entire project folder into Netlify's site deployment area for a free static site.
 
 ## Important
-This is a static website, so there is no monthly hosting/server cost. The booking form uses WhatsApp and does not need a database.
+This is a static website, so there is no monthly hosting/server cost. The booking form uses WhatsApp and it need  a database of customer and their service 
 
 Do NOT put an OpenAI API key in `index.html`, `script.js`, or any other browser file. If you later want an AI chatbot, use a server-side/backend function so the API key stays private.
